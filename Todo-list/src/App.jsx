@@ -28,11 +28,14 @@ const App = () => {
   };
 
   return (
-    <div className="container">
-      <h1 className="text-center my-5">Todo-List Application</h1>
-      <Form todos={todos} setTodos={setTodos} id={id} setId={setId} />
-      <Todos handleDelete={handleDelete} todos={todos} setId={setId} />
-    </div>
+    <>
+      <div className="container">
+        <h1 className="text-center my-5">Todo-List Application</h1>
+        <Form todos={todos} setTodos={setTodos} id={id} setId={setId} />
+        <Todos handleDelete={handleDelete} todos={todos} setId={setId} />
+      </div>
+      <p>© Vikash Sharma</p>
+    </>
   );
 };
 

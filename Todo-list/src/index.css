@@ -1,3 +1,7 @@
 input {
   width: 27%;
 }
+p {
+  margin-left: 130px;
+  color: hotpink;
+}
